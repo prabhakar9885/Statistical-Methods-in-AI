@@ -1,0 +1,98 @@
+.navpopup
+{
+   
+  -moz-box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.5);
+  font-family:Georgia,"Times New Roman",Times,serif !important;
+  -moz-border-radius: 8px !important;	
+  background-color:#DAF0FE !important;
+  border:1px solid #337DA5 !important;
+  line-height:normal !important;
+  font-size:12px !important;
+  word-wrap:break-word !important;
+  padding:5px !important;
+}
+                                        
+ 
+.popupPreviewButton { border: 1px dotted;
+                      cursor: pointer; }
+.popupPreviewButtonDiv { margin-top: 1ex; }
+
+.popupDragHandle {  
+                   cursor: move; }
+
+.popup_menu
+{
+  display:none;
+  position:absolute;
+  margin-top: 1em;
+  line-height: 1.25em;
+  list-style-type: none; 
+  /*top:1.6ex; */
+  z-index:2;
+  width:10em; 
+  background:white; 
+  border:solid 1px grey;
+  padding: 0.5em !important;
+  margin-left: -6px;
+  margin-top: 1em;
+  border-width: 1px 1px 1px 6px;
+}
+.popup_menu a {display:block;}
+.popup_menu_row a {display:inline;}
+.popup_menu_row { list-style: none;
+                  padding: 0;
+                  margin: 0;
+                  }
+.popup_drop {display:inline; position:relative;}
+.popup_drop:hover .popup_menu,
+.popup_drop .popup_menu:hover {display:inline; background:White; padding:2px 2px 2px 2px}
+
+.popup_drop:hover { background:#CCF; color:#44f; }
+
+/* other colours, styles and so on */
+.popup_menu a:hover {background:#CCf; color:#44f}
+
+.popup_change_title_link { color: #152 !important; }
+
+.popup_diff_dates { 
+                    font-style: italic !important; 
+                    background: none !important;
+                    }
+
+.popup_menu_item { 
+                  list-style: none;
+                  padding: 0;
+                  margin: 0;
+}
+.popup_menu_item a{ display:block; }
+.popupPreview a.external,
+.popupPreview a.extiw,
+.popupPreview a.extiw:active {
+	background: none !important;
+	padding: 0 !important;
+}
+.popupPreview a.external {
+}
+.popupPreview .plainlinks a {
+	background: none !important;
+	padding: 0 !important;
+}
+.popupNavLink{
+	font-size:13px;
+	font-weight: bold; 
+	color:#3399CC !important;
+	text-align:left !important;
+	margin-top:0px !important;
+}
+.popup_mainlink{
+	margin-left:5px !important;
+	left:5px !important;
+	
+}
+.popupNavLink a{ color:#3399CC !important;}
+.popupTopLinks{
+	margin-left:5px !important;
+	height:20px; !important;
+	text-align:left !important;
+	cursor:pointer !important;
+}
