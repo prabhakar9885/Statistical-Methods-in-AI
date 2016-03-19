@@ -36,14 +36,17 @@ the grand mean of all the folds.
 
 ### How to run the code?
 - KNN with Random-Subsampling
+
   ```sh
    $ python driver_Random_Sampling.py <numberOfTrials> <k> <file-name> <feature-count>
    ```
 - KNN with Random subsampling
+
     ```sh
     $ python driver_kFold_Sampling.py <k> <file-name> <feature-count>
     ```
 - Decision boundary for Iris dataset :
+
     ```sh
     $ python plot_iris.py <file-name> 
     ```
